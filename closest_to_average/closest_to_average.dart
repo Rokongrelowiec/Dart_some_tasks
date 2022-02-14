@@ -1,6 +1,6 @@
 void main() {
-  closest([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]); // Avg = 55/10 = 5.5 ~= 5
-  closest([3, 5, 2, 4, 1]); // Avg = 15/5 = 3
+  closest([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]); 
+  closest([3, 5, 2, 4, 1]); 
 }
 
 closest(lst) {
@@ -19,6 +19,5 @@ closest(lst) {
       cls = i;
     }
   }
-  // print(cls);
   print(lst[cls]);
 }
